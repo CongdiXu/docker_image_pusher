@@ -1,9 +1,3 @@
-# ==============================
-# Dify 完整全套镜像（自动适配 x86 / ARM64 / 麒麟）
-# 不加 platform，自动多架构兼容
-# 内网 K8s / 麒麟服务器 直接使用
-# ==============================
-
 # Dify 核心服务
 langgenius/dify-api:latest
 langgenius/dify-web:latest
