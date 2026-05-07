@@ -1,6 +1,5 @@
 langgenius/dify-api:latest
 langgenius/dify-web:latest
-langgenius/dify-worker:latest
 langgenius/dify-plugin-daemon:nightly
 langgenius/dify-sandbox:0.2.10
 postgres:15-alpine
