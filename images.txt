@@ -3,7 +3,7 @@ langgenius/dify-api:latest
 langgenius/dify-web:latest
 langgenius/dify-plugin-daemon:latest
 
-# Dify 依赖服务（官方必需）
+# Dify 依赖服务
 postgres:15-alpine
 redis:6-alpine
 nginx:stable-alpine
