@@ -1,11 +1,15 @@
-# Dify 核心服务（100% 可拉取）
+# ==============================
+# Dify 官方真实镜像清单（可直接拉取）
+# ==============================
+
+# 核心服务（worker 功能已包含在 api 镜像中）
 langgenius/dify-api:latest
 langgenius/dify-web:latest
-langgenius/dify-worker:latest
-langgenius/dify-sandbox:0.2.10
-langgenius/dify-plugin-daemon:v1.0.0
 
-# 依赖服务
+# 插件沙箱服务（如需代码执行功能）
+langgenius/dify-sandbox:0.2.10
+
+# 依赖服务（官方必需）
 postgres:15-alpine
 redis:6-alpine
 nginx:stable-alpine
