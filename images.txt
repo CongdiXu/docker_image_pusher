@@ -1,8 +1,8 @@
-langgenius/dify:api
-langgenius/dify:web
-langgenius/dify:worker
-langgenius/dify:plugin-daemon
-langgenius/dify-sandbox:latest
+registry.cn-hangzhou.aliyuncs.com/langgenius/dify:api
+registry.cn-hangzhou.aliyuncs.com/langgenius/dify:web
+registry.cn-hangzhou.aliyuncs.com/langgenius/dify:worker
+registry.cn-hangzhou.aliyuncs.com/langgenius/dify:plugin-daemon
+registry.cn-hangzhou.aliyuncs.com/langgenius/dify-sandbox:latest
 postgres:15-alpine
 redis:6-alpine
 nginx:stable-alpine
