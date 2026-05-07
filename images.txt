@@ -5,6 +5,8 @@
 # 核心服务（worker 功能已包含在 api 镜像中）
 langgenius/dify-api:latest
 langgenius/dify-web:latest
+langgenius/dify-worker:latest
+langgenius/dify-plugin-daemon:latest
 
 # 插件沙箱服务（如需代码执行功能）
 langgenius/dify-sandbox:0.2.10
