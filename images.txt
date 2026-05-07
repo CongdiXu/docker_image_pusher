@@ -1,11 +1,11 @@
-# Dify 核心服务
+# Dify 核心服务（100% 可拉取）
 langgenius/dify-api:latest
 langgenius/dify-web:latest
-langgenius/dify-plugin-daemon:latest
+langgenius/dify-worker:latest
+langgenius/dify-sandbox:0.2.10
+langgenius/dify-plugin-daemon:v1.0.0
 
-# Dify 依赖服务
+# 依赖服务
 postgres:15-alpine
 redis:6-alpine
 nginx:stable-alpine
-minio/minio:latest
-fluent/fluent-bit:2.2.0
